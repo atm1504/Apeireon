@@ -842,6 +842,7 @@ img {
     .single-upcoming-shows .shows-location p {
       margin-bottom: 0;
       color: #ffffff; }
+      
   .single-upcoming-shows .shows-time {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 10%;
@@ -888,7 +889,8 @@ img {
   overflow: hidden; }
   .single-featured-shows img {
     -webkit-transition-duration: 800ms;
-    transition-duration: 800ms; }
+    transition-duration: 800ms;
+  height:80vh; }
   .single-featured-shows .featured-shows-content {
     -webkit-transition-duration: 800ms;
     transition-duration: 800ms;
