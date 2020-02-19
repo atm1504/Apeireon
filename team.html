@@ -14,16 +14,25 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
-    .fa {
-      padding: 20px;
-      font-size: 50px;
 
+
+    .fa {
+      padding: 10px;
+      color: white;
+      
       text-align: center;
       
-      margin: 10px 2px;
+      margin: 3px 3px;
     }
+.card-body{
+    background: #cc1573;
+    background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
+    background: linear-gradient(to right, #cc1573, #5722a9);
+    text-align: center;
+
+}
     </style>
 
 
@@ -89,68 +98,7 @@
 
 
 
-                               <!-- <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">About us</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="concert-tours.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>-->
-
-                                <!-- Social Button 
-                                <div class="top-social-info">
-                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>-->
+                             
 
                             </div>
                             <!-- Nav End -->
@@ -210,10 +158,10 @@
         
       </div>
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img src="img/bg-img/jimson.png" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem;;" data-aos="fade-down"  data-aos-duration="3000" >
+            <img src="img/bg-img/jimson.png" class="card-img-top"  style="height:50vh;">
             <div class="card-body">
-              <p class="card-text">HOD CSE department<br>Dr. Jimson <br> PIC Apeiron</p>
+              <p class="card-text" style="color: white;">HOD CSE department<br>Dr. Jimson <br> PIC Apeiron</p>
             </div>
           </div>
       </div>
@@ -229,13 +177,16 @@
         
       </div>
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img src="img/bg-img/apeiron.jpg" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem;" data-aos="flip-right" data-aos-duration="3000" >
+            <img src="img/bg-img/me.jpg" class="card-img-top"  style="height:50vh;">
             <div class="card-body">
-              <p class="card-text">Overall Coordinator.<br>Adarsh Chaudhary</p>
+              <p class="card-text" style="color: white;">Adarsh Chaudhary
+                  <br>Overall Coordinator
+              </p>
               <a href="https://www.facebook.com/adarsh217" class="fa fa-facebook"></a>
               <a href="https://www.linkedin.com/in/adarshchaudhary/" class="fa fa-linkedin"></a>
               <a href="https://github.com/AdarshKC" class="fa fa-github"></a>
+              <br><p style="color: white;">8827275145</p>
             </div>
           </div>
       </div>
@@ -245,147 +196,83 @@
     </div>
   </div><br><br>
 
-<!-- ##### Featured Shows Area Start ##### -->
-<div class="featured-shows-area section-padding-100" id="gallery">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading dark">
-                    <h2>Other Team members</h2>
-                    <h6></h6>
-                </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;" data-aos="fade-left" data-aos-duration="3000" >
+            <img src="img/bg-img/ak.jpg" class="card-img-top" style="height:50vh;">
+            <div class="card-body">
+              <p class="card-text" style="color: white;" >Akshat Jain
+            <br>Media and Public Relations</p>
+              <a href="https://www.facebook.com/ak.jn.7" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/akjn99/" class="fa fa-linkedin"></a>
+              <a href="https://github.com/Akshat-Jain" class="fa fa-github"></a><br>
+              <p style="color: white;">+919461333355</p>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="featured-shows-slides owl-carousel">
-
-                    <!-- Single Featured Shows -->
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/apeiron.jpg" alt="">
-                        <!-- Content -->
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Akshat Jain</h4>
-                                <p>Media and Public Relations</p>
-                                <a  class="buy-tickets-btn"><a href="https://www.facebook.com/ak.jn.7" class="fa fa-facebook"></a>
-                                <a href="https://www.linkedin.com/in/akjn99/" class="fa fa-linkedin"></a>
-                                <a href="https://github.com/Akshat-Jain" class="fa fa-github"></a></a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>
-<!-- Single Featured Shows -->
-<div class="single-featured-shows">
-    <img src="img/bg-img/arsh.jpg" alt="">
-    <!-- Content -->
-    <div class="featured-shows-content">
-        <div class="shows-text">
-            <h4>Arsh Mahajan</h4>
-            <p>technical Head</p>
-            <a  class="buy-tickets-btn"><a href="https://m.facebook.com/arsh.mahajan.7568" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/nightmare05?originalSubdomain=in" class="fa fa-linkedin"></a>
-            <a href="https://github.com/Arsh0508" class="fa fa-github"></a></a>
-        </div>
-        <div class="bg-gradients"></div>
-    </div>
-</div>
-<!-- Single Featured Shows -->
-<div class="single-featured-shows">
-    <img src="img/bg-img/anuj.jpg" alt="">
-    <!-- Content -->
-    <div class="featured-shows-content">
-        <div class="shows-text">
-            <h4>Anuj Shastri</h4>
-            <p>Hospitality</p>
-            <a  class="buy-tickets-btn"><a href="https://www.facebook.com/anuj.shastri.3910" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/anuj-shastri-07a49b163/" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-github"></a></a>
-        </div>
-        <div class="bg-gradients"></div>
-    </div>
-</div>
-<!-- Single Featured Shows -->
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/mohit.jpg" alt="">
-                        <!-- Content -->
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Mohit Kishore</h4>
-                                <p>Events manager</p>
-                                <a  class="buy-tickets-btn"><a href="https://www.facebook.com/originalmk7" class="fa fa-facebook"></a>
-                                <a href="https://www.linkedin.com/in/originalmk7/" class="fa fa-linkedin"></a>
-                                <a href="https://github.com/Mkishore7" class="fa fa-github"></a></a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Shows -->
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/apeiron.jpg" alt="">
-                        <!-- Content -->
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Priyansh Singh Rao</h4>
-                                <p>Media and Public Realtions</p>
-                                <a  class="buy-tickets-btn"><a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-linkedin"></a>
-                                <a href="#" class="fa fa-github"></a></a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>
-                    <!-- Single Featured Shows 
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/apeiron.jpg" alt="">
-                         Content 
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Coming Soon</h4>
-                                <p>To be released</p>
-                                <a href="#" class="buy-tickets-btn">To be released</a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>-->
-
-                    <!-- Single Featured Shows 
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/apeiron.jpg" alt="">
-                         Content 
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Coming Soon</h4>
-                                <p>To be released</p>
-                                <a href="#" class="buy-tickets-btn">To be released</a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>-->
-
-                    <!-- Single Featured Shows -->
-                     <!-- Single Featured Shows 
-                    <div class="single-featured-shows">
-                        <img src="img/bg-img/apeiron.jpg" alt="">
-                         Content 
-                        <div class="featured-shows-content">
-                            <div class="shows-text">
-                                <h4>Coming Soon</h4>
-                                <p>To be released</p>
-                                <a href="#" class="buy-tickets-btn">To be released</a>
-                            </div>
-                            <div class="bg-gradients"></div>
-                        </div>
-                    </div>-->
-
-                </div>
+          </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;" data-aos="flip-right" data-aos-duration="3000" >
+            <img src="img/bg-img/mohit.jpg" class="card-img-top"  style="height:50vh;">
+            <div class="card-body">
+              <p class="card-text" style="color: white;"> Mohit Kishore
+            <br>Events Manager</p>
+              <a href="https://www.facebook.com/originalmk7" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/originalmk7/" class="fa fa-linkedin"></a>
+              <a href="https://github.com/Mkishore7" class="fa fa-github"></a><br>
+              <p style="color: white;">9570566557</p>
             </div>
-        </div>
+          </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-duration="3000" >
+            <img src="img/bg-img/arsh.jpg" class="card-img-top"  style="height:50vh;">
+            <div class="card-body">
+              <p class="card-text" style="color: white;">Arsh Mahajan
+            <br>Technical Head</p>
+              <a href="https://m.facebook.com/arsh.mahajan.7568" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/nightmare05?originalSubdomain=in" class="fa fa-linkedin"></a>
+              <a href="https://github.com/Arsh0508" class="fa fa-github"></a>
+              <br><p style="color: white;">8288979228</p>
+            </div>
+          </div>
+      </div>
     </div>
-</div>
-<!-- ##### Featured Shows Area End ##### -->
+  </div>
+    <br><br>        
+  <div class="container">
+    <div class="row">
+      <div class="col" style="margin-left:10vw;">
+        <div class="card" style="width: 18rem;" data-aos="fade-left" data-aos-duration="3000" >
+            <img src="img/bg-img/apeiron.jpg" class="card-img-top"  style="height:50vh;">
+            <div class="card-body">
+              <p class="card-text" style="color: white;"> Priyansh Singh Rao<br>Media and Public Relations</p>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-github"></a>
+              <br><p style="color: white;">9570566557</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; " data-aos="fade-right" data-aos-duration="3000" >
+            <img src="img/bg-img/anuj.jpg" class="card-img-top"  style="height:50vh;" style="height:18rem;">
+            <div class="card-body">
+              <p class="card-text" style="color: white;"> Anuj Shastri
+            <br>Hospitality</p>
+              <a href="https://www.facebook.com/anuj.shastri.3910" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/anuj-shastri-07a49b163/" class="fa fa-linkedin"></a>
+             <br><p style="color: white;">9330335162</p>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+            
 
     <!-- ##### About Us Area End ##### -->
 
@@ -581,6 +468,11 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
